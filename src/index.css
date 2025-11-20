@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0D192C;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.main-card {
+    background-color: #15263F;
+    width: 350px;
+    padding: 24px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.image-box {
+    border-radius: 8px;
+    width: 100%;
+}
+
+.card-title {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.card-desc {
+    color: rgb(139, 172, 217);
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.card-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-main p {
+    display: flex;
+    gap: 7px;
+    font-size: 14px;
+    color: #8bacda;
+}
+
+.card-main p:first-child span {
+    color: rgb(0, 255, 248);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card-main p:nth-child(2) span {
+    color: rgb(139, 172, 217);
+    font-size: 16px;
+}
+
+.footer-line span {    
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #2E405A;
+}      
+
+.card-author {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #8bacda;
+}
+
+.card-author img {
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.card-author span:last-child {
+    color: white;
+    font-size: 16px;
+    margin-left: 8px;
+}
